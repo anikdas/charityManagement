@@ -1,8 +1,8 @@
 ﻿<?php
-$db_host = "localhost";
-$db_user = "root";
-$db_pass = "advanced";
-$db_name = "sattyadham";
+$db_host = "host"; //host name
+$db_user = "username"; //database user name
+$db_pass = "password"; // mysql password 
+$db_name = "databasename"; //database name
 $link = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
 if($link->connect_error)
 {
